@@ -1,4 +1,4 @@
-h1{
+h1 {
     background: #e8da95;
     color: #bb381b;
 }
@@ -6,24 +6,32 @@ h2{
     background: #b8eeee;
     color: brown;
 }
-.simpson{
+
+.simpson {
     background: rgb(248, 248, 139);
     color: #987609;
 }
-.homer{
+
+.homer {
     background: rgb(248, 248, 245);
     color: #4e4541;
-}.bart{
-     background: rgb(239, 230, 181);
-     color: #987609;
- }.lisa{
-      background: rgb(206, 210, 208);
-      color: #3a3f65;
-  }
-  li{
-      background: rgb(126, 229, 216);
-      color: #1c1916;
-  }
-  img{
-      width: 300px;
-  }
+}
+
+.bart {
+    background: rgb(239, 230, 181);
+    color: #987609;
+}
+
+.lisa {
+    background: rgb(206, 210, 208);
+    color: #3a3f65;
+}
+
+li {
+    background: rgb(126, 229, 216);
+    color: #1c1916;
+}
+
+img {
+    width: 300px;
+}
