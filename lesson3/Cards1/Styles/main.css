@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.container{
+    background: #f8f6f6;
+    height: 440px;
+    width: 90vw;
+    border: 1px solid rgb(1,1,1,0.2);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.cards{
+    display: flex;
+    box-sizing: border-box;
+    border: 10px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    justify-content: center;
+
+}
+.card{
+    width: 280px;
+    height: 330px;
+    border: 1px solid rgb(1,1,1,0.5);
+    box-sizing: border-box;
+    margin: 15px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.circle{
+    position: absolute;
+    height: 85px;
+    width: 85px;
+    border: 1px solid rgb(1,1,1,0.5);
+    background: #ffffff;
+    border-radius: 50%;
+    top: 30px
+}
+.fa-desktop{
+    position: absolute;
+    font-size: 24px;
+    color: #eb9014;
+    top: 32px;
+    left: 30px;
+
+}
+.fa-futbol{
+    position: absolute;
+    font-size: 24px;
+    color: #eb9014;
+    top: 31px;
+    left: 32px;
+}
+.fa-martini-glass{
+    position: absolute;
+    font-size: 24px;
+    color: #eb9014;
+    top: 31px;
+    left: 32px;
+}
+.title{
+    text-align: center;
+    font-family: "Arial";
+    font-size: 20px;
+    box-sizing: border-box;
+    margin: 10px 10px 10px 10px;
+}
+.description {
+    height: 110px;/*висота контейнеру*/
+    text-align: center;/*розміщення тексту по центру*/
+    font-family: "Arial";/*шрифт*/
+    line-height: 2;/*вертикальний відступ між рядками тексту*/
+    font-size: 16px;/*розмір тексту*/
+    box-sizing: border-box;
+    margin: 10px 30px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    opacity: 50%;/*прозорість тексту*/
+}
+a{
+    text-decoration: none; /*декорація тексту*/
+    color: #1c1916; /*колір тексту*/
+    border: 1px solid black;/*розмір і колір рамки*/
+    font-size: 16px;/*розмір шрифту*/
+    font-family: "Arial";
+    margin-top: 10px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    padding: 14px 50px;
+
+}
