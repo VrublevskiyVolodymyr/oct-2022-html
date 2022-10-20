@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+h1{
+text-align: center;
+  font-weight: normal;/*жирність шрифту*/
+}
+.container{
+    height:370px;
+    width: 1000px;
+    border: 1px solid #dad3d3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /*повертає на 90 градусів*/
+}
+.cards{
+    height: 215px;
+    box-sizing: border-box;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.card{
+    width: 155px;
+    height: 215px;
+    border: 1px solid #d2cfcc;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column; /*повертає на 90 градусів*/
+}
+.title{
+color: #c88e61;
+}
+.text{
+    text-align: center; /*виставляє текст по центру*/
+}
+h3{
+    box-sizing: border-box;
+    margin: 0;
+}
+p{
+    box-sizing: border-box;
+    margin: 0;
+}
+a{
+    text-decoration: none; /*декорація тексту*/
+    color: #ffffff; /*колір тексту*/
+    border: 1px solid black;/*розмір і колір рамки*/
+    background: #55c2b5;
+    font-size: 14px;/*розмір шрифту*/
+    margin-top: 10px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    padding: 5px 20px;
+
+}
