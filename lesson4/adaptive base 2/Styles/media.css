@@ -1,0 +1,66 @@
+@media screen and (min-width: 0) and (max-width: 720px) {
+    .container {
+        padding: 20px;
+        box-sizing: border-box;
+        justify-content: space-between;
+    }
+
+    .a {
+        height: 14%;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .box_general {
+        height: 82%;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .box1 {
+        height: 77.5%;
+        width: auto;
+        margin-right: 0;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    .b {
+        height: 70%;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    .box2 {
+        height: 24%;
+        width: auto;
+        margin-right: 0;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    .c {
+        border-radius: 10px;
+        box-sizing: border-box;
+        width: 15%;
+    }
+
+    .d {
+        border-radius: 10px;
+        box-sizing: border-box;
+        width: 15%;
+    }
+
+    .e {
+        border-radius: 10px;
+        width: 15%;
+    }
+
+    .f {
+        height: 18%;
+        width: auto;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+}
